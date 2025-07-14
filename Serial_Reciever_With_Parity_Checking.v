@@ -6,9 +6,7 @@ module top_module(
     output done
 ); //
 
-    // Modify FSM and datapath from Fsm_serialdata
 
-    // New: Add parity checking.
     integer count;
     reg[7:0] data;
     reg success;
